@@ -4,7 +4,9 @@ import Array from './Array';
 import Boolean from './Boolean';
 import UserForm from './UserForm';
 import Theme from './Theme';
-
+import HookCounterOne from './useEffectComponents/HookCounterOne';
+import DataFetching from './useEffectComponents/DataFetching';
+import TodoList  from './TodoList';
 function App() {
   return (
     <div className="App">
@@ -12,7 +14,10 @@ function App() {
      {/* <Array/> */}
      {/* <Boolean/> */}
      {/* <UserForm/> */}
-     <Theme/>
+     {/* <Theme/> */}
+     {/* <HookCounterOne/> */}
+     {/* <DataFetching/> */}
+     <TodoList/>
     </div>
   );
 }
