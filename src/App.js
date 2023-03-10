@@ -7,6 +7,7 @@ import Theme from './Theme';
 import HookCounterOne from './useEffectComponents/HookCounterOne';
 import DataFetching from './useEffectComponents/DataFetching';
 import TodoList  from './TodoList';
+import Parent from './useContext/Parent';
 function App() {
   return (
     <div className="App">
@@ -17,7 +18,8 @@ function App() {
      {/* <Theme/> */}
      {/* <HookCounterOne/> */}
      {/* <DataFetching/> */}
-     <TodoList/>
+     {/* <TodoList/> */}
+     <Parent/>
     </div>
   );
 }
