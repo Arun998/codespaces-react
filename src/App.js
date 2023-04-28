@@ -6,7 +6,7 @@ import UserForm from './UserForm';
 import Theme from './Theme';
 import HookCounterOne from './useEffectComponents/HookCounterOne';
 import DataFetching from './useEffectComponents/DataFetching';
-import TodoList  from './TodoList';
+import TodoList  from './CRUD-operations/TodoList';
 import Parent from './useContext/Parent';
 function App() {
   return (
